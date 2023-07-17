@@ -10,7 +10,7 @@ int main(void)
 
 	while (init <= 122)
 	{
-		putchar (init);	
+		putchar (init);
 		init++;
 	}
 	return (0);
