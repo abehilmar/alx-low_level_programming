@@ -10,9 +10,9 @@ int main(void)
 
 	while (init <= 122)
 	{
-		if (init != 65 || init != 71)
+		if (init != 101 || init != 113)
 		{
-			putchar (init);			
+			putchar (init);
 		}
 	init++;
 	}
