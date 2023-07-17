@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <>
 /**
  * main- the fun
  * Return: success
