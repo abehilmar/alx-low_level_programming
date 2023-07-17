@@ -6,12 +6,11 @@
  */
 int main(void)
 {
-	int init = 97;
+	int init = 96;
 
 	while (init <= 122)
 	{
-		putchar (init);
-		putchar ('\n');
+		putchar (init);	
 		init++;
 	}
 	return (0);
