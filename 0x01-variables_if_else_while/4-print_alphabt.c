@@ -10,11 +10,13 @@ int main(void)
 
 	while (init <= 122)
 	{
-		if (init != 101 || init != 113)
+		if (init == 101 || init == 113)
 		{
-			putchar (init);
+			init++;
+			continue;
 		}
-	init++;
+		putchar(init);
+		init++;
 	}
 	putchar ('\n');
 	return (0);
