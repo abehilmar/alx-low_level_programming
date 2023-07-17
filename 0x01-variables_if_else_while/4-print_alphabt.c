@@ -12,9 +12,9 @@ int main(void)
 	{
 		if (init != 65 || init != 71)
 		{
-			putchar (init);
-			init++;
+			putchar (init);			
 		}
+	init++;
 	}
 	putchar ('\n');
 	return (0);
