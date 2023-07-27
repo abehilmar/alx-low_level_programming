@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *main - function goes here
- *Return : always 0
+ *Return: always 0
  */
 int main(void)
 {
@@ -13,5 +13,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
