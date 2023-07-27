@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isalpha - function 
+ *_isalpha - function
  *@c: variabel
  *Return: 0
  */
