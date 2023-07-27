@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  *print_last_digit - last digit
- *@i: value
+ *@n: value
  *Return: return
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
 	int l;
 
