@@ -1,21 +1,20 @@
 #include "main.h"
 /**
- *string_toupper - upppercase
- *@s: input
+ *_strcmp - upppercase
+ *@s1: input
+ *@s2: input 2
  *Return: a pointer
  */
-char *string_toupper(char *s)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 
 	i = 0;
-
-	while (s[i] != '\0')
+	while (s1[i] != '\0' && s2[i] != '\0')
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] -= 32;
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
 		i++;
 	}
-	s[i] = '\0';
-	return (s);
+	return (s1[i] - s2[i]);
 }
