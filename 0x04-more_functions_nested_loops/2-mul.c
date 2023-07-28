@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *mul - function 
+ *mul - function
  *@a: first input
  *@b: second input
- *Return: sum 
+ *Return: sum
  */
 int mul(int a, int b)
 {
-	return (a*b);
+	return (a * b);
 }
