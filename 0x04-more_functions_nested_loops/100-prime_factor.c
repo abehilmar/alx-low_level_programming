@@ -18,7 +18,7 @@ int main(void)
 			if ((prim % 3) == 2)
 				printf(",%lu ", prim);
 		}
-		prim += 2;
+		prim = prim + 2;
 	}
 	putchar('\n');
 	return (0);
