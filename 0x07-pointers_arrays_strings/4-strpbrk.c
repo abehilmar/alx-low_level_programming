@@ -3,7 +3,7 @@
  *_strpbrk - function
  *@s: first value
  *@accept: second value
- *Return: char with result 
+ *Return: char with result
  */
 char *_strpbrk(char *s, char *accept)
 {
