@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_strstr - fun
- *@baystack: fv
+ *@haystack: fv
  *@needle: sv
  *Return: char with result
  */
